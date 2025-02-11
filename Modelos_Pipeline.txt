@@ -1,0 +1,54 @@
+1. Regressão Logística (LogisticRegression)
+    Descrição: Um modelo linear simples, adequado para problemas binários e multiclasses.
+    Vantagens:
+    Simples e eficiente para dados lineares.
+    Fácil de interpretar.
+    Use quando: O problema for linear ou você precisar de uma baseline simples.
+
+2. K-Nearest Neighbors (KNeighborsClassifier)
+    Descrição: Baseado na proximidade dos dados no espaço das características.
+    Vantagens:
+    Não faz suposições sobre a distribuição dos dados.
+    Bom para pequenos conjuntos de dados.
+    Use quando: O problema tiver padrões locais claros, e você tiver dados normalizados.
+
+3. Árvore de Decisão (DecisionTreeClassifier)
+    Descrição: Cria uma estrutura hierárquica para tomar decisões com base em condições nos dados.
+    Vantagens:
+    Fácil de interpretar.
+    Não requer normalização dos dados.
+    Use quando: Você quiser explicar o processo de tomada de decisão ou tiver dados categóricos.
+
+4. Random Forest (RandomForestClassifier)
+    Descrição: Um conjunto de várias árvores de decisão que reduz o risco de overfitting.
+    Vantagens:
+    Robusto contra overfitting.
+    Lida bem com grandes conjuntos de dados.
+    Use quando: O problema for complexo e você quiser um modelo confiável e fácil de ajustar.
+
+5. Gradient Boosting (GradientBoostingClassifier)
+    Descrição: Cria árvores sequenciais para corrigir os erros das árvores anteriores.
+    Vantagens:
+    Bom para dados tabulares e problemas complexos.
+    Lida bem com datasets desequilibrados.
+    Use quando: Você precisar de alta performance, mas tempo de treinamento não for um problema.
+
+6. Support Vector Machines (SVM) (SVC)
+    Descrição: Classifica os dados criando um hiperplano que separa as classes.
+    Vantagens:
+    Eficaz para problemas com margens claras de separação.
+    Funciona bem em alta dimensionalidade.
+    Use quando: Você tiver dados com muitas features e o problema for não linear.
+
+10. Modelos Ensemble (Ex.: Bagging, Boosting)
+    Descrição: Combina vários modelos fracos para formar um modelo forte.
+    Exemplos:
+    Bagging: BaggingClassifier
+    Boosting: AdaBoostClassifier, XGBoost, CatBoost
+    Vantagens:
+    Robustez contra overfitting.
+    Alta performance em dados tabulares.
+    Use quando: Você quiser maximizar o desempenho em problemas complexos.
+
+
+regtessão quantas classificação qual
